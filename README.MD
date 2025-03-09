@@ -1,3 +1,6 @@
+Semi Manual diary in Latex with inputs in command-line-based Python. Old School.
+
+
 # LaTeX Diary System
 
 A Python-based diary application that creates and manages diary entries using LaTeX for beautiful PDF output. The system organizes entries chronologically and supports rich formatting, emojis, and custom boxes for additional content.
