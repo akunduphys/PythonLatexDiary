@@ -1,0 +1,35 @@
+\documentclass[a4paper]{book}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{framed}
+\usepackage{datetime}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fourier}
+\usepackage{marginnote}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+\input{input}
+
+\newcommand{\emoamazed}{\includegraphics[height=1.8ex]{"./Emoji/amazed-smiley"}}
+\newcommand{\emobeer}{\includegraphics[height=1.8ex]{"./Emoji/beer-smiley"}}
+\newcommand{\emocoffee}{\includegraphics[height=1.8ex]{"./Emoji/coffee-smiley"}}
+\newcommand{\emoconfused}{\includegraphics[height=1.8ex]{"./Emoji/confused-smiley"}}
+\newcommand{\emoheadbang}{\includegraphics[height=1.8ex]{"./Emoji/headbang-smiley"}}
+\newcommand{\emoshutcalc}{\includegraphics[height=1.8ex]{"./Emoji/shutupandcalc"}}
+\newcommand{\emocode}{\includegraphics[height=1.8ex]{"./Emoji/code-smiley"}}
+\newcommand{\datestampcust}[3]{\dayofweekname{#1}{#2}{#3} {#1.#2.#3}}
+\newcommand{\sep}{-----------------------------------------------------------}
+
+\title{\Huge My Diary}
+\author{Aritra Kundu}
+\date{}
+
+\begin{document}
+\maketitle
+
+\include{./2025/March_2025}
+
+\end{document}
